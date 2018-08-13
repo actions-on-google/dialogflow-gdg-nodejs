@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "script"
+  },
+  "extends": ["google"],
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "valid-jsdoc": 0,
+    "require-jsdoc": 0
+  }
+}

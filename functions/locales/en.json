@@ -1,0 +1,44 @@
+{
+    "WELCOME_NEW_TEXT": "Welcome to %s.  I can tell you about the organization, how many members we have, or about events. What would you like to know?",
+    "WELCOME_NEW_SPEECH": "Welcome to %s.  I can tell you about the organization, how many members we have, or about events. <break time='.5' /> What would you like to know.",
+    "WELCOME_BACK_TEXT": "Welcome back! I can tell you about the organization, the number of members, or about past and future events. Which would you like?",
+    "WELCOME_BACK_SPEECH": "Welcome back! I can tell you about the organization, the number of members, or about past and future events.  <break time='.5' /> Which would you like.",
+    "NUMBER_OF_MEMBERS": "The GDG has %s members.",
+    "NO_UPCOMING_EVENT": "There's no upcoming event planned.",
+    "EVENT": " I can tell you about the last event, or the next one.  Which one would you like?",
+    "NEXT_EVENT": "The next event is called {{{name}}} and is on {{date}}.",
+    "NO_LAST_EVENT": "There were no events in the past.",
+    "LAST_EVENT": "The last event was on {{date}} and it was called {{{name}}}.",
+    "ORGANIZER_NAME": "The organizer is %s.",
+    "SUGGESTIONS": {
+        "MENU": [
+            "About GDG",
+            "Next event",
+            "Last event",
+            "# of Members",
+            "Organizer's Name",
+            "Bye"
+        ]
+    },
+    "REPROMPT_1": "Sorry, I didn't hear anything. I can tell you about the GDG or when our next event is.",
+    "REPROMPT_2": "Sorry, I still didn't hear anything. I can tell you about the GDG or when our next event is, or if you're finished just say 'goodbye'.",
+    "IS_FINAL_REPROMPT": "I'm sorry I'm having trouble.  Let's stop here for now.  Goodbye.",
+    "FALLBACKPROMPT_1": "Sorry, I didn't quite get that. I can tell you about the GDG, or when our next event is.",
+    "FALLBACKPROMPT_2_TEXT": "Sorry, I still didn't get that. I can tell you about the GDG or when our next event is, or if you're finished just say 'goodbye'.",
+    "FALLBACKPROMPT_2_SPEECH" : "Sorry, I still didn't get that. I can tell you about the GDG, or when our next event is. Or, if you're finished just say 'goodbye'.",
+    "FALLBACKPROMPT_FINAL": "I'm sorry I'm having trouble.  Let's stop here for now.  Goodbye.",
+    "ANYTHING_ELSE": [
+        " Now, what else can I help you with?",
+        " Is there anything else I can help you with?"
+    ],
+    "FAREWELL": [
+        "See you at our next meetup!",
+        "Thanks for hanging out, talk to you soon!"
+    ],
+    "REPEAT_PREFIX": [
+        "Sure, I said ",
+        "No problem, ",
+        "I said "
+    ],
+    "HELP": "I can tell you about the GDG, the number of members we have, or about events.  Which would you like?"
+}

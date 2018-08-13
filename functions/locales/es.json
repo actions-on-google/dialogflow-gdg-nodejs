@@ -1,0 +1,44 @@
+{
+    "WELCOME_NEW_TEXT": "Bienvenidos a %s.  Puedo contarte sobre la organización, cuántos miembros tenemos, o sobre eventos. ¿Qué te gustaría saber?",
+    "WELCOME_NEW_SPEECH": "Bienvenidos a %s.  Puedo contarte sobre la organización, cuántos miembros tenemos, o sobre eventos. <break time='.5' /> ¿Qué te gustaría saber?",
+    "WELCOME_BACK_TEXT": "¡Hola de nuevo! Puedo contarte sobre el GDG, cuántos miembros tenemos, o sobre eventos. ¿Qué te gustaría saber?",
+    "WELCOME_BACK_SPEECH": "¡Hola de nuevo! Puedo contarte sobre el GDG, cuántos miembros tenemos, o sobre eventos. <break time='.5' /> ¿Qué te gustaría saber?",
+    "NUMBER_OF_MEMBERS": "El GDG tiene %s miembros.",
+    "NO_UPCOMING_EVENT": "No hay eventos planeados.",
+    "EVENT": " Puedo contarte sobre el último evento o el siguiente. ¿Cuál te gustaría?",
+    "NEXT_EVENT": "El próximo evento se llama {{{name}}} y es en {{date}}.",
+    "NO_LAST_EVENT": "No hubo eventos en el pasado.",
+    "LAST_EVENT": "El último evento fue el {{date}} y se llamó {{{name}}}.",
+    "ORGANIZER_NAME": "La persona que organiza es %s.",
+    "SUGGESTIONS": {
+        "MENU": [
+            "Sobre GDG",
+            "Próximo evento",
+            "Último evento",
+            "Cuántos miembros",
+            "Nombre del organizador",
+            "Adiós"
+        ]
+    },
+    "REPROMPT_1": "Lo siento, no escuché nada. Puedo contarte sobre el GDG o cuándo será nuestro próximo evento.",
+    "REPROMPT_2": "Lo siento, todavía no escuché nada. Puedo informarle sobre el GDG o cuándo será nuestro próximo evento, o si acaba de decir simplemente 'adiós'.",
+    "IS_FINAL_REPROMPT": "Lamento tener problemas. Vamos a detenernos aquí por ahora. Adiós.",
+    "FALLBACKPROMPT_1": "Lo siento, no lo entendí del todo. Puedo contarte sobre el GDG, o cuándo será nuestro próximo evento.",
+    "FALLBACKPROMPT_2": "Lo siento, todavía no entendí eso. Puedo informarle sobre el GDG o cuándo será nuestro próximo evento, o si acaba de decir simplemente 'adiós'.",
+    "FALLBACKPROMPT_2_SPEECH" : "Lo siento, todavía no entendí eso. Puedo contarte sobre el GDG, o cuándo será nuestro próximo evento. O, si terminas, solo di 'adiós'.",
+    "FALLBACKPROMPT_FINAL": "Lamento tener problemas. Vamos a detenernos aquí por ahora. Adiós.",
+    "ANYTHING_ELSE": [
+        "Ahora, ¿con qué más puedo ayudarte?",
+        "¿Hay algo más con lo que pueda ayudarte?"
+    ],
+    "FAREWELL": [
+        "¡Nos vemos en nuestra próxima reunión!",
+        "Gracias por pasar el rato, hablamos pronto!"
+    ],
+    "REPEAT_PREFIX": [
+        "Claro, dije ",
+        "No hay problema, ",
+        "Dije "
+    ],
+    "HELP": "Puedo informarle sobre el GDG, la cantidad de miembros que tenemos o sobre eventos. ¿Cual te gustaria?"
+}

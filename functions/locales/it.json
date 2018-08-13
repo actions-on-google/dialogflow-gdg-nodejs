@@ -1,0 +1,44 @@
+{
+    "WELCOME_NEW_TEXT": "Benvenuto a %s. Posso darti informazioni riguardo al GDG, il numero dei suoi membri o gli eventi. Cosa vuoi sapere?",
+    "WELCOME_NEW_SPEECH": "Benvenuto a %s. Posso darti informazioni riguardo al GDG, il numero dei suoi membri o gli eventi. <break time='.5' /> Cosa vuoi sapere?",
+    "WELCOME_BACK_TEXT": "Bentornato! Posso darti informazioni riguardo al GDG, il numero dei suoi membri, eventi passati o futuri. Quale ti interessa?",
+    "WELCOME_BACK_SPEECH": "Bentornato! Posso darti informazioni riguardo al GDG, il numero dei suoi membri, eventi passati o futuri. <break time='.5' /> Quale ti interessa?",
+    "NUMBER_OF_MEMBERS": "Il GDG ha %s membri.",
+    "NO_UPCOMING_EVENT": "Non ci sono eventi futuri in programma.",
+    "EVENT": " Posso parlarti dell'ultimo evento o del prossimo.",
+    "NEXT_EVENT": "Il prossimo evento si chiama {{{name}}} ed e' il {{date}}.",
+    "NO_LAST_EVENT": "Non c'e' stato alcun evento in passato.",
+    "LAST_EVENT": "L'ultimo evento e' stato il {{date}} e si chiamava {{{name}}}.",
+    "ORGANIZER_NAME": "L'organizzatore e' %s.",
+    "SUGGESTIONS": {
+        "MENU": [
+            "GDG",
+            "Prossimo evento",
+            "Ultimo evento",
+            "Numero di membri",
+            "Nome dell'organizzatore",
+            "Arrivederci"
+        ]
+    },
+    "REPROMPT_1": "Scusa, non ti ho sentito. Posso darti informazioni riguardo al GDG o il prossimo evento.",
+    "REPROMPT_2": "Scusa, continuo a non sentire nulla. Posso darti informazioni riguardo al GDG o il prossimo evento. Se hai finito, basta che dici 'arrivederci'.",
+    "IS_FINAL_REPROMPT": " Scusa, sto avendo dei problemi. Fermiamoci qua per adesso. A presto.",
+    "FALLBACKPROMPT_1": "Scusa, non ho capito. Posso darti informazioni riguardo al GDG o il prossimo evento.",
+    "FALLBACKPROMPT_2_TEXT": "Scusa, continuo a non capire. Posso darti informazioni riguardo al GDG o il prossimo evento. Se hai finito, basta che dici 'arrivederci'.",
+    "FALLBACKPROMPT_2_SPEECH" : "Scusa, continuo a non capire. Posso darti informazioni riguardo al GDG. O il prossimo evento. Se hai finito, basta che dici 'arrivederci'.",
+    "FALLBACKPROMPT_FINAL": "Scusa, sto avendo dei problemi. Fermiamoci qua per adesso. A presto.",
+    "ANYTHING_ELSE": [
+        "  Posso aiutarti con qualcos'altro?",
+        "  Ti interessa qualche altra informazione?"
+    ],
+    "FAREWELL": [
+        "Ci vediamo al prossimo evento!",
+        "Grazie dell'attenzione, a presto!"
+    ],
+    "REPEAT_PREFIX": [
+        "Certo, ho detto, ",
+        "Nessun problema, ",
+        "Ho detto "
+    ],
+    "HELP": "Posso parlarti del GDG, il numero di membri o gli eventi. Quale ti interessa?"
+}
