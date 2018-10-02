@@ -1,0 +1,44 @@
+{
+    "WELCOME_NEW_TEXT": "Bem-vindo ao %s. Posso te falar sobre a organização, quantos membros temos, ou sobre eventos. Sobre o que gostaria de saber?",
+    "WELCOME_NEW_SPEECH": "Bem-vindo ao %s. Posso te falar sobre a organização, quantos membros temos, ou sobre eventos. <break time='.5'/> Sobre o que gostaria de saber?",
+    "WELCOME_BACK_TEXT": "Bem-vindo de volta! Posso te falar sobre a organização, número de membros, ou sobre eventos passados e futuros. Sobre qual você gostaria de saber?",
+    "WELCOME_BACK_SPEECH": "Bem-vindo de volta! Posso te falar sobre a organização, número de membros, ou sobre eventos passados e futuros. <break time='.5' /> Sobre qual você gostaria de saber?",
+    "NUMBER_OF_MEMBERS": "O GDG tem %s membros.",
+    "NO_UPCOMING_EVENT": "Não há eventos futuros planejados.",
+    "EVENT": " Posso lhe falar sobre o últim o evento, ou o próximo. Qual dos dois você gostaria?",
+    "NEXT_EVENT": "O próximo evento é o {{{name}}} e será em {{date}}.",
+    "NO_LAST_EVENT": "Não há eventos anteriores.",
+    "LAST_EVENT": "O último evento foi o {{{name}}} e aconteceu em {{date}}.",
+    "ORGANIZER_NAME": "A pessoa organizadora é %s.",
+    "SUGGESTIONS": {
+        "MENU": [
+            "Sobre o GDG",
+            "Próximo evento",
+            "Último evento",
+            "Número de membros",
+            "Nome da organizadora",
+            "Até logo"
+        ]
+    },
+    "REPROMPT_1": "Desculpe, não escutei nada. Posso lhe dizer sobre o GDG ou quando é nosso próximo evento.",
+    "REPROMPT_2": "Desculpe, continuo não escutando. Posso lhe dizer sobre o GDG, quando é nosso próximo evento, ou se você estiver satisfeito, basta dizer 'tchau'.",
+    "IS_FINAL_REPROMPT": "Desculpe, estou tendo problema. Vamos parar por aqui por enquanto. Até mais.",
+    "FALLBACKPROMPT_1": "Desculpe, não entendi. Posso lhe falar sobre o GDG, ou quando é nosso próximo evento.",
+    "FALLBACKPROMPT_2_TEXT": "Desculpe, eu ainda não entendi. Posso lhe falar sobre o GDG, sobre o nosso próximo evento, ouse você estiver satisfeito, basta dizer 'tchau'.",
+    "FALLBACKPROMPT_2_SPEECH" : "Desculpe, eu ainda não entendi. Posso lhe falar sobre o GDG, sobre o nosso próximo evento, ouse você estiver satisfeito, basta dizer 'tchau'.",
+    "FALLBACKPROMPT_FINAL": "Desculpe, estou tendo problema. Vamos parar por aqui por enquanto. Até mais.",
+    "ANYTHING_ELSE": [
+        " E agora, no que mais posso te ajudar?",
+        " Tem mais alguma coisa em que posso te ajudar?"
+    ],
+    "FAREWELL": [
+        "Vejo você no nosso próximo meetup!",
+        "Obrigado pela conversa, nos falamos em breve!"
+    ],
+    "REPEAT_PREFIX": [
+        "Claro, eu disse: ",
+        "Sem problema, ",
+        "Eu disse "
+    ],
+    "HELP": "Posso lhe falar sobre o GDG, o total de membros que temos, ou sobre nossos eventos. Sobre o que você quer saber?"
+}

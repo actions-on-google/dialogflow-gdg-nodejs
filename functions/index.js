@@ -49,6 +49,8 @@ i18n.configure({
     'es-ES': 'es',
     'es-MX': 'es',
     'es-PE': 'es',
+    'de-DE': 'de',
+    'pt-BR': 'pt',
   },
 });
 

@@ -1,0 +1,44 @@
+{
+    "WELCOME_NEW_TEXT": "Willkommen bei der %s. Ich kann dir mehr über unsere Community erzählen, wie viele Mitglieder wir haben oder über unsere Events. Was möchtest du gerne wissen?",
+    "WELCOME_NEW_SPEECH": "Willkommen bei der %s. Ich kann dir mehr über unsere Community erzählen, wie viele Mitglieder wir haben oder über unsere Events. <break time='.5' /> Was möchtest du gerne wissen?",
+    "WELCOME_BACK_TEXT": "Willkommen zurück! Ich kann dir mehr über unsere Community erzählen, wie viele Mitglieder wir haben oder über vergangene und geplante Events. Was davon möchtest du gerne wissen?",
+    "WELCOME_BACK_SPEECH": "Willkommen zurück! Ich kann dir mehr über unsere Community erzählen, wie viele Mitglieder wir haben oder über vergangene und geplante Events. <break time='.5' /> Was davon möchtest du gerne wissen?",
+    "NUMBER_OF_MEMBERS": "Die GDG hat %s Mitglieder.",
+    "NO_UPCOMING_EVENT": "Es ist kein Event geplant.",
+    "EVENT": "Ich kann dir mehr über das letzte Event erzählen, oder über das nächste Event. Worüber möchtest du mehr hören?",
+    "NEXT_EVENT": "Das nächste Event heißt {{{name}}} und findet am {{date}} statt.",
+    "NO_LAST_EVENT": "Es gibt keine vergangenen Events.",
+    "LAST_EVENT": "Das letzte Event war am {{date}} und hieß {{{name}}}.",
+    "ORGANIZER_NAME": "Der Organisator heißt %s",
+    "SUGGESTIONS": {
+        "MENU": [
+            "Über die GDG",
+            "Das nächste Event",
+            "Das letzte Event",
+            "Anzahl der Mitglieder",
+            "Namen des Organisatoren",
+            "Tschüss"
+        ]
+    },
+    "REPROMPT_1": "Tut mir Leid, das habe ich nicht verstanden. Ich kann dir mehr über die GDG erzählen oder über unser nächstes Event.",
+    "REPROMPT_2": "Tut mir Leid, das habe ich nicht verstanden. Ich kann dir mehr über die GDG erzählen oder über unser nächstes Event. Wenn du fertig bist, sag einfach 'Tschüss'.",
+    "IS_FINAL_REPROMPT": "Tut mir Leid, ich habe Schwierigkeiten. Lass uns für jetzt aufhören. Bis zum nächsten Mal.",
+    "FALLBACKPROMPT_1": "Tut mir Leid, ich habe das nicht richtig verstanden. Ich kann dir mehr über die GDG erzählen oder über unser nächstes Event.",
+    "FALLBACKPROMPT_2_TEXT": "Tut mir Leid, ich habe das nicht richtig verstanden. Ich kann dir mehr über die GDG erzählen oder über unser nächstes Event. Wenn du fertig bist, sag einfach 'Tschüss'.",
+    "FALLBACKPROMPT_2_SPEECH" : "Tut mir Leid, ich habe das immer noch nicht richtig verstanden. Ich kann dir mehr über die GDG erzählen oder über unser nächstes Event. Wenn du fertig bist, sag einfach 'Tschüss'.",
+    "FALLBACKPROMPT_FINAL": "Tut mir Leid, ich habe Schwierigkeiten. Lass uns für jetzt aufhören. Bis zum nächsten Mal.",
+    "ANYTHING_ELSE": [
+        " Wie kann ich dir sonst weiterhelfen?",
+        " Gibt es noch etwas anderes, bei dem ich weiterhelfen kann?"
+    ],
+    "FAREWELL": [
+        "Wir sehen uns beim nächsten Event!",
+        "Danke fürs Vorbeischauen, bis bald!"
+    ],
+    "REPEAT_PREFIX": [
+        "Sicher, ich habe gesagt, ",
+        "Kein Problem, ",
+        "Ich habe gesagt,  "
+    ],
+    "HELP": "Ich kann dir mehr über die GDG, die Anzahl unserer Mitglieder oder über unsere Events erzählen. Worüber möchtest du mehr hören?"
+}
