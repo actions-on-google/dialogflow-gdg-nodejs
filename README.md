@@ -1,3 +1,4 @@
+
 # GDG Action
 
 This action for the Google Assistant provides information about a [Google Developer Group](https://developers.google.com/groups).
@@ -7,31 +8,27 @@ This app uses [Meetup API](https://www.meetup.com/meetup_api/) to get the data o
 
 ## Localization
 
-This app uses the [i18n-node](https://github.com/mashpie/i18n-node) library to provide
-responses in several languages. The responses are listed in the `locales` directory.
+This app uses the [i18n-node](https://github.com/mashpie/i18n-node) library to provide responses in several languages. The responses are listed in the `locales` directory.
 
 ## Translation
-This app uses [Cloud Translation API](https://cloud.google.com/translate/docs/) to translate the data from the meetup api, when the user's language does not match the GDG's primary language. [Pricing Infomation](https://cloud.google.com/translate#translation-api-pricing).
+This app uses [Cloud Translation API](https://cloud.google.com/translate/docs/) to translate the data from the meetup api, when the user's language does not match the GDG's primary language. [Pricing Infomation](https://cloud.google.com/translate#translation-api-pricing). 
+
+*Note*: If this is your first Action you published, you'll be added to the [Google Assistant Devloper Community Program](https://developers.google.com/actions/community/overview) where it credits the account associated with your Action with up to $200 of Google Cloud services a month (applicable to Cloud Translate fees) - for a full year!
 
 ## Setup Instructions
 
 ### Configuration
-The following values need to be configured in the `config.js` file:
+The following values need to be configured in the `functions/config.js` file:
 1. `gdgId`: unique identifier for the GDG on Meetup (e.g. `google-developer-group-san-francisco` for `https://www.meetup.com/google-developer-group-san-francisco/`)
 1. `gdgName`: short name for the GDG (e.g. `GDG San Francisco`)
 1. `meetupKey`: Meetup API key retrieved from https://secure.meetup.com/meetup_api/key/
+1. `projectId`:  Your Google Cloud Platform project ID (for translation)
 1. `appLocal`:  GDG's two character language code from https://developers.google.com/actions/localization/languages-locales (e.g. `en`)
 
 Choose one of the two options listed below for setup. You only need to complete one of the two options below to setup this sample.
 
-### Option 1: Add to Dialogflow (recommended)
-Click on the **Add to Dialogflow** button below and follow the prompts to create a new agent:
-<!-- TODO: Create One Click -->
-
-[![Silly Name Maker](https://storage.googleapis.com/dialogflow-oneclick/deploy.svg "Silly Name Maker")](https://console.dialogflow.com/api-client/oneclick?templateUrl=https%3A%2F%2Fstorage.googleapis.com%2Fdialogflow-oneclick%2Fsilly-name-agent.zip&agentName=ActionsOnGoogleSillyNameMakerSample)
-
-### Option 2: Dialogflow restore and Firebase CLI
-1. Use the [Actions on Google Console](https://console.actions.google.com) to add a new project with a name of your choosing and click *Create Project*.
+### Dialogflow restore and Firebase CLI
+1. Use this link to get to the [Actions on Google Console](https://actions-console.google.com/?inviteCode=gdgaction) to add a new project with a name of your choosing and click *Create Project*.
 1. Click *Skip*, located on the top right to skip over category selection menu.
 1. On the left navigation menu under *BUILD*, click on *Actions*. Click on *Add Your First Action* and choose your app's language(s).
 1. Select *Custom intent*, click *BUILD*. This will open a Dialogflow console. Click *CREATE*.
@@ -43,8 +40,15 @@ Click on the **Add to Dialogflow** button below and follow the prompts to create
    1. Run `firebase deploy --only functions` and take note of the endpoint where the fulfillment webhook has been published. It should look like `Function URL (gdg): https://${REGION}-${PROJECT}.cloudfunctions.net/gdg`
 1. Go back to the Dialogflow console and select *Fulfillment* from the left navigation menu. Enable *Webhook*, set the value of *URL* to the `Function URL` from the previous step, then click *Save*.
 
-### Cloud Translation API
-1.  Follow the steps for [Creating a service account](https://cloud.google.com/docs/authentication/production#creating_a_service_account).
+### Cloud Translation API (optional)
+1.  Follow the steps for [Using the Cloud Translation API Client Library](https://github.com/googleapis/nodejs-translate/blob/master/README.md#using-the-client-library).
+
+*Note*: This is an optional. If you add the Cloud Translation API then you can use all available languages. Without it, your Action will only be approved in language written on your Meetup page.
+
+
+### Confirm/Add invite code
+1. Open the [Actions on Google Console](https://actions-console.google.com/?inviteCode=gdgaction), on the left navigation menu next to *Overview*, click on the *gear* and select *Project settings*. 
+1. Under *Invite Codes* confirm or add `gdgaction` and click *SAVE*.
 
 ### Test on the Actions on Google simulator
 1. Open [Dialogflow's *Integrations* page]((https://console.dialogflow.com/api-client/#/agent//integrations)), from the left navigation menu and open the *Integration Settings* menu for Actions on Google.
@@ -55,7 +59,7 @@ Click on the **Add to Dialogflow** button below and follow the prompts to create
 ## Deployment
 1. In the [Actions on Google Console](https://console.actions.google.com), under *SETUP*,  click on *Invocation*. Populate the  information for each language. 
 1. Under *DEPLOY*,  click on *Directory information* and populate the information for each language.
-	- Suggested verbiage for descriptions [here](additional-languages/directory-suggestions.md)
+	- Suggested verbiage for descriptions [here](resources.md)
 	- **NOTE**: Follow the [GDG Naming and Logo Guides](https://developers.google.com/programs/community/gdg/resources/)
 1. Under *DEPLOY*,  click on *Release* and submit the Action for production release.
 

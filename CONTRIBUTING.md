@@ -19,10 +19,7 @@ accept your pull requests.
 
 ## Contributing A Patch
 
-1. Submit an issue describing your proposed change to the repo in question.
-1. The repo owner will respond to your issue promptly.
-1. If your proposed change is accepted, and you haven't already done so, sign a
-   Contributor License Agreement (see details above).
+1. Sign the Contributor License Agreement (see details above).
 1. Fork the desired repo, develop and test your code changes.
 1. Ensure that your code adheres to the existing style in the sample to which
    you are contributing. Refer to the
@@ -31,3 +28,28 @@ accept your pull requests.
 1. Ensure that your code has an appropriate set of unit tests which all pass.
 1. Submit a pull request.
 
+
+# Translation
+We are looking to translate this Action into all available languages. You can contribute to this project by adding any of the languages noted as "Need Translation" to this project. 
+
+| Language   | Complete         |
+|------------|------------------|
+| English    | Yes              |
+| German     | Yes              |
+| French     | Need Translation |
+| Japanese   | Yes              |
+| Korean     | Need Translation |
+| Spanish    | Yes              |
+| Portuguese | Yes              |
+| Italian    | Yes              |
+| Russian    | Need Translation |
+| Hindi      | Need Translation |
+| Thai       | Need Translation |
+| Indonesian | Need Translation |
+| Danish     | Need Translation |
+| Norwegian  | Need Translation |
+| Dutch      | Need Translation |
+| Swedish    | Need Translation |
+
+### GDG Action Translation Template Sheet
+[Here](https://docs.google.com/spreadsheets/d/1Tq5aauE1thrVLJjmdm9WetHZ0k0c-OrgGSt1CV6plxE/edit?usp=sharing) is all the verbiage used in this project.

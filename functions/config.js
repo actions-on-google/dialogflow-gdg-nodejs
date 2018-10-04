@@ -11,14 +11,19 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-const gdgId = '';
-const gdgName = 'GDG Name';
-const meetupKey = '';
+// meetup information
+const gdgId = // TODO: add the gdg id from meetup (you can find it in the url)
+const gdgName = // TODO: add the gdg name (ie. GDG San Francisco)
+const meetupKey = // TODO: add the meetup key
+// Your Google Cloud Platform project ID (for translation)
+const projectId = // TODO: add the project id
 // add the two character language code from
 // https://developers.google.com/actions/localization/languages-locales
-const appLocal = 'en';
+const appLocal = // TODO: add the two character language code that your
+// meetup is in 
 
 exports.gdgId = gdgId;
 exports.gdgName = gdgName;
 exports.meetupKey = meetupKey;
 exports.appLocal = appLocal;
+exports.projectId = projectId;

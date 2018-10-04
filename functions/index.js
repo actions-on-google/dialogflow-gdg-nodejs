@@ -51,18 +51,17 @@ i18n.configure({
     'es-PE': 'es',
     'de-DE': 'de',
     'pt-BR': 'pt',
+    'ja-JP': 'ja',
   },
 });
 
 // Imports the Google Cloud client library
 const Translate = require('@google-cloud/translate');
 
-// Your Google Cloud Platform project ID
-const projectId = 'gdgsf-c1605';
 
 // Instantiates a client
 const translate = new Translate({
-  projectId: projectId,
+  projectId: config.projectId,
 });
 
 
