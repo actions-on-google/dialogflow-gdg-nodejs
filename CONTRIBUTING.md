@@ -30,26 +30,14 @@ accept your pull requests.
 
 
 # Translation
-We are looking to translate this Action into all available languages. You can contribute to this project by adding any of the languages noted as "Need Translation" to this project. 
+We are looking to translate this Action into all available languages. You can contribute to this project by adding any of the languages missing from [available languages](https://developers.google.com/actions/localization/languages-locales). Currently the Action is available in the following languages: 
 
-| Language   | Complete         |
-|------------|------------------|
-| English    | Yes              |
-| German     | Yes              |
-| French     | Need Translation |
-| Japanese   | Yes              |
-| Korean     | Need Translation |
-| Spanish    | Yes              |
-| Portuguese | Yes              |
-| Italian    | Yes              |
-| Russian    | Need Translation |
-| Hindi      | Need Translation |
-| Thai       | Need Translation |
-| Indonesian | Need Translation |
-| Danish     | Need Translation |
-| Norwegian  | Need Translation |
-| Dutch      | Need Translation |
-| Swedish    | Need Translation |
+- English
+- German
+- Japanese
+- Spanish
+- Portuguese
+- Italian
 
 ### GDG Action Translation Template Sheet
 [Here](https://docs.google.com/spreadsheets/d/1Tq5aauE1thrVLJjmdm9WetHZ0k0c-OrgGSt1CV6plxE/edit?usp=sharing) is all the verbiage used in this project.

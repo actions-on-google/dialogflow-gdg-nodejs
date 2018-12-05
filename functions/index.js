@@ -195,7 +195,7 @@ app.intent('next event', async (conv) => {
  */
 app.intent('last event', async (conv) => {
   const gdg = new Gdg(conv.data.gdgId);
-  const event = await gdg.getNextEvent();
+  const event = await gdg.getLastEvent();
   conv.localize();
   recordIntentAndClearErrorCount(conv, 'last event');
   if (!event) {
