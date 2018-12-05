@@ -110,7 +110,7 @@ app.intent('organizer', (conv) =>
     // Save the current prompt
     setLastPrompt(conv, messageText);
     // Show a photo of the organizer if the device has a display
-    if (conv.surface.capabilities.has('actions.capability.SCREEN_OUTPUT')) {
+    if (conv.screen) {
       if (organizer.photo) {
         conv.ask(new BasicCard({
           title: organizer.name,
@@ -171,8 +171,7 @@ app.intent('next event', async (conv) => {
     });
     conv.ask(messageText);
     setLastPrompt(conv, messageText);
-    if (conv.surface.capabilities.has(
-      'actions.capability.SCREEN_OUTPUT')) {
+    if (conv.screen) {
         conv.ask(new BasicCard({
           text: event.name,
           buttons: new Button({
@@ -219,7 +218,7 @@ app.intent('last event', async (conv) => {
       });
       conv.ask(messageText);
       setLastPrompt(conv, messageText);
-      if (conv.surface.capabilities.has('actions.capability.SCREEN_OUTPUT')) {
+      if (conv.screen) {
         conv.ask(new BasicCard({
           text: event.name,
           buttons: new Button({
