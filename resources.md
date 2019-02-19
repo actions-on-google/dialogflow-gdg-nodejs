@@ -27,3 +27,8 @@ Full description: Saiba mais sobre o que o GDG San Francisco está fazendo; a pa
 ### Japanese | ja
 Description: GDGサンフランシスコについて学ぶ
 Full description: GDGサンフランシスコの活動次のイベントが来たときから彼らが何をすべきかまで。
+
+
+## Images
+
+Follow the [GDG Naming and Logo Guides](https://developers.google.com/programs/community/gdg/resources/)

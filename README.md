@@ -65,9 +65,13 @@ The following values need to be configured in the `functions/config.js` file:
 
 ## Deployment
 1. In the [Actions on Google Console](https://console.actions.google.com), under *SETUP*,  click on *Invocation*. Populate the  information for each language (the name, ie. GDG San Fransico)
-1. Under *DEPLOY*,  click on *Directory information* and populate the information for each language.
-	- Suggested verbiage for descriptions [here](resources.md)
-	- **NOTE**: Follow the [GDG Naming and Logo Guides](https://developers.google.com/programs/community/gdg/resources/)
+1. Under *DEPLOY*,  click on *Directory information* and populate the information for *each* language.
+	- **Description** Suggested Directory information for descriptions [here](resources.md) for all languages 
+	- **Images**: Follow the [GDG Naming and Logo Guides](https://developers.google.com/programs/community/gdg/resources/)
+	- **Contact details**: Provided your email, you do not need to add a company. 
+	- **Privacy and Consent**: Follow the "Need help creating a Privacy Policy?". This Action does not save any user data. Make sure that you have this verbiage in every language in the same document. You do not need Terms of Service link.
+	- **Additional Information | Catetgory** Social & Communication 
+	Click Save. 
 1. Under *DEPLOY*,  click on *Release* and submit the Action for production release.
 
 # Share your Action
