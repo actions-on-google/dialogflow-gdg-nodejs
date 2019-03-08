@@ -64,7 +64,7 @@ The following values need to be configured in the `functions/config.js` file:
 1. Type `Talk to my test app` in the simulator, or say `OK Google, talk to my test app` to any Actions on Google enabled device signed into your developer account.
 
 ## Deployment
-1. In the [Actions on Google Console](https://console.actions.google.com), under *SETUP*,  click on *Invocation*. Populate the  information for each language (the name, ie. GDG San Fransico)
+1. In the [Actions on Google Console](https://console.actions.google.com), under *SETUP*,  click on *Invocation*. Populate the information for each language (the name, ie. GDG San Fransico). Disregard any messaging about matching to the invocation, since we'll add that later, if it does not save, add empty space at the end.  
 1. Under *DEPLOY*,  click on *Directory information* and populate the information for *each* language.
 	- **Description** Suggested Directory information for descriptions [here](resources.md) for all languages 
 	- **Images**: Follow the [GDG Naming and Logo Guides](https://developers.google.com/programs/community/gdg/resources/)
