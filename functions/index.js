@@ -60,7 +60,7 @@ const Translate = require('@google-cloud/translate');
 
 
 // Instantiates a client
-const translate = new Translate({
+const translate = new Translate.Translate({
   projectId: config.projectId,
 });
 
