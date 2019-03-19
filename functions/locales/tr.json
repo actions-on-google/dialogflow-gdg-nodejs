@@ -1,0 +1,44 @@
+{
+    "WELCOME_NEW_TEXT": "%s'ya hoş geldiniz. Sana toplulukla ilgili bilgi verebilir, kaç kişi olduğumuzu söyleyebilir veya etkinliklerimizden bahsedebilirim. Ne bilmek istersin?",
+    "WELCOME_NEW_SPEECH": "%s'ya hoş geldiniz.  Sana toplulukla ilgili bilgi verebilir, kaç kişi olduğumuzu söyleyebilir veya etkinliklerimizden bahsedebilirim.  <break time='.5' /> Ne bilmek istersin.",
+    "WELCOME_BACK_TEXT": "Tekrar hoşgeldin! Sana toplulukla ilgili bilgi verebilir, kaç kişi olduğumuzu söyleyebilir veya geçmiş ve gelecek etkinliklerimizden bahsedebilirim. Hangisini istersin?",
+    "WELCOME_BACK_SPEECH": "Tekrar hoşgeldin! Sana toplulukla ilgili bilgi verebilir, kaç kişi olduğumuzu söyleyebilir veya geçmiş ve gelecek etkinliklerimizden bahsedebilirim. <break time='.5' /> Hangisini istersin.",
+    "NUMBER_OF_MEMBERS": "GDG'nin %s üyesi var.",
+    "NO_UPCOMING_EVENT": "Yakın gelecekte planlanmış bir etkinliğimiz yok.",
+    "EVENT": "Son düzenlediğimiz etkinlikten veya en yakın etkinliğimizden bahsedebilirim. Hangisini istersin?",
+    "NEXT_EVENT": "Sıradaki etkinliğimiz, {{date}} tarihinde düzenleyeceğimiz {{{name}}}.",
+    "NO_LAST_EVENT": "Hiç geçmiş etkinliğimiz yok.",
+    "LAST_EVENT": "En son {{{name}}} etkinliğimizi {{date}} tarihinde düzenledik.",
+    "ORGANIZER_NAME": "Organizatör %s.",
+    "SUGGESTIONS": {
+        "MENU": [
+            "GDG Hakkında",
+            "Sıradaki Etkinlik",
+            "Son Etkinlik",
+            "Üye Sayısı",
+            "Organizatörün İsmi",
+            "Hoşça kal!"
+        ]
+    },
+    "REPROMPT_1": "Üzgünüm, bir şey duyamadım. Sana GDG'den veya en yakın etkinliğimizden bahsedebilirim.",
+    "REPROMPT_2": "Kusura bakma, yine bir şey duyamadım. Sana GDG'den veya en yakın etkinliğimizden bahsedebilirim ya da konuşmak istemiyorsan 'hoşça kal' diyebilirsin.",
+    "IS_FINAL_REPROMPT": "Üzgünüm, bir sorun yaşıyorum. Şimdilik burada duralım. Görüşmek üzere.",
+    "FALLBACKPROMPT_1": "Pardon, tam olarak anlamadım. Sana GDG'den veya en yakın etkinliğimizden bahsedebilirim.",
+    "FALLBACKPROMPT_2_TEXT": "Üzgünüm, yine bir şey duyamadım. Sana GDG'den veya en yakın etkinliğimizden bahsedebilirim ya da konuşmak istemiyorsan 'hoşça kal' diyebilirsin.",
+    "FALLBACKPROMPT_2_SPEECH" : "Üzgünüm, yine bir şey duyamadım. Sana GDG'den veya en yakın etkinliğimizden bahsedebilirim ya da konuşmak istemiyorsan 'hoşça kal' diyebilirsin.",
+    "FALLBACKPROMPT_FINAL": "Üzgünüm, bir sorun yaşıyorum. Şimdilik burada duralım. Görüşmek üzere.",
+    "ANYTHING_ELSE": [
+        "Sana başka nasıl yardımcı olabilirim?",
+        "Yardımcı olabileceğim başka bir konu var mı?"
+    ],
+    "FAREWELL": [
+        "Sıradaki etkinliğimizde görüşmek üzere!",
+        "Sohbetin için teşekkürler, görüşmek üzere!"
+    ],
+    "REPEAT_PREFIX": [
+        "Tabi, dedim ki; ",
+        "Tabi; ",
+        "Dedim ki; "
+    ],
+    "HELP": "Sana GDG ile ilgili bilgi verebilir, kaç kişi olduğumuzu söyleyebilir veya etkinliklerimizden bahsedebilirim. Hangisini istersin?"
+}

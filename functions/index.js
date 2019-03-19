@@ -52,6 +52,7 @@ i18n.configure({
     'de-DE': 'de',
     'pt-BR': 'pt',
     'ja-JP': 'ja',
+    'tr-TR': 'tr',
   },
 });
 
