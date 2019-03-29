@@ -11,7 +11,7 @@ This app uses [Meetup API](https://www.meetup.com/meetup_api/) to get the data o
 This app uses the [i18n-node](https://github.com/mashpie/i18n-node) library to provide responses in several languages. The responses are listed in the `locales` directory.
 
 ## Translation
-This app uses [Cloud Translation API](https://cloud.google.com/translate/docs/) to translate the data from the meetup api, when the user's language does not match the GDG's primary language. [Pricing Infomation](https://cloud.google.com/translate#translation-api-pricing). 
+This app uses [Cloud Translation API](https://cloud.google.com/translate/docs/) to translate the data from the meetup api, when the user's language does not match the GDG's primary language. [Pricing Infomation](https://cloud.google.com/translate#translation-api-pricing).
 
 *Note*: If this is your first Action you published, you'll be added to the [Google Assistant Devloper Community Program](https://developers.google.com/actions/community/overview) where it credits the account associated with your Action with up to $200 of Google Cloud services a month (applicable to Cloud Translate fees) - for a full year!
 
@@ -30,7 +30,7 @@ Do not do `projectId`.
 1. Use this link to get to the [Actions on Google Console](https://console.actions.google.com/?inviteCode=gdgaction) to add a new project with a name of your choosing and click *Create Project*.
 1. Scroll down to the *More Options* section, and click on the *Conversational* card.
 1. On the left navigation menu under *BUILD*, click on *Actions*. Click on *Add Your First Action* and choose your app's language(s).
-1. Select *Custom intent*, click *BUILD*. This will open a Dialogflow console. 
+1. Select *Custom intent*, click *BUILD*. This will open a Dialogflow console.
 1. Click *CREATE*.
 1. Click on the gear icon to see the project settings.
 1. Select *Export and Import*.
@@ -42,7 +42,7 @@ The following values need to be configured in the `functions/config.js` file:
 1. `projectId`:  Your Project ID
 
 ### Enable Cloud Translation API
-1. [Select the Cloud Platform project](https://console.cloud.google.com/project) (this should match your Actions on Google project ID). Click *Activate*. 
+1. [Select the Cloud Platform project](https://console.cloud.google.com/project) (this should match your Actions on Google project ID). Click *Activate*.
 1. Enable billing for your project.
 1. [Enable the Cloud Translation API](https://console.developers.google.com/apis/api/translate.googleapis.com/overview?project=). Make sure that it matches the Actions on Google project ID (it may take a few seconds).
 
@@ -54,7 +54,7 @@ The following values need to be configured in the `functions/config.js` file:
 
 
 ### Confirm/Add invite code
-1. Open the [Actions on Google Console](https://actions-console.google.com/?inviteCode=gdgaction), on the left navigation menu next to *Overview*, click on the *gear* and select *Project settings*. 
+1. Open the [Actions on Google Console](https://actions-console.google.com/?inviteCode=gdgaction), on the left navigation menu next to *Overview*, click on the *gear* and select *Project settings*.
 1. Under *Invite Codes* confirm or add `gdgaction` and click *SAVE*.
 
 ### Test on the Actions on Google simulator
@@ -66,12 +66,12 @@ The following values need to be configured in the `functions/config.js` file:
 ## Deployment
 1. In the [Actions on Google Console](https://console.actions.google.com), under *SETUP*,  click on *Invocation*. Populate the information for each language (the name, ie. GDG San Fransico). Disregard any messaging about matching to the invocation, since we'll add that later, if it does not save, add empty space at the end.  
 1. Under *DEPLOY*,  click on *Directory information* and populate the information for *each* language.
-	- **Description** Suggested Directory information for descriptions [here](resources.md) for all languages 
+	- **Description** Suggested Directory information for descriptions [here](resources.md) for all languages
 	- **Images**: Follow the [GDG Naming and Logo Guides](https://developers.google.com/programs/community/gdg/resources/)
-	- **Contact details**: Provided your email, you do not need to add a company. 
+	- **Contact details**: Provided your email, you do not need to add a company.
 	- **Privacy and Consent**: Follow the "Need help creating a Privacy Policy?". This Action does not save any user data. Make sure that you have this verbiage in every language in the same document. You do not need Terms of Service link.
-	- **Additional Information | Catetgory** Social & Communication 
-	Click Save. 
+	- **Additional Information | Catetgory** Social & Communication
+	Click Save.
 1. Under *DEPLOY*,  click on *Release* and submit the Action for production release.
 
 # Share your Action
@@ -81,23 +81,22 @@ For more detailed information on deployment, see the [documentation](https://dev
 
 See the developer guide and release notes at [https://developers.google.com/actions/](https://developers.google.com/actions/) for more details.
 
-
-## References and How to report bugs
-* Actions on Google documentation: [https://developers.google.com/actions/](https://developers.google.com/actions/).
-* If you find any issues, please open a bug here on GitHub.
-* Questions are answered on [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google).
-
-## How to make contributions?
-Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md).
-
 ### Translation Support
-We are looking to translate this Action into all available languages. More information [here](additional-languages/README.md). 
+We are looking to translate this Action into all available languages.
+
+### References & Issues
++ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/).
++ For bugs, please report an issue on Github.
++ Actions on Google [Webhook Boilerplate Template](https://github.com/actions-on-google/dialogflow-webhook-boilerplate-nodejs).
++ [Codelabs](https://codelabs.developers.google.com/?cat=Assistant) for Actions on Google.
++ Actions on Google [Documentation](https://developers.google.com/actions/extending-the-assistant).
++ More info on deploying with [Firebase](https://developers.google.com/actions/dialogflow/deploy-fulfillment).
+
+## Make Contributions
+Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 See [LICENSE](LICENSE).
 
 ## Terms
 Your use of this sample is subject to, and by using or downloading the sample files you agree to comply with, the [Google APIs Terms of Service](https://developers.google.com/terms/).
-
-## Google+
-Actions on Google Developers Community on Google+ [https://g.co/actionsdev](https://g.co/actionsdev).
