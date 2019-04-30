@@ -12,16 +12,16 @@
 // limitations under the License.
 
 // meetup information
-const gdgId = // TODO: add the gdg id from meetup (you can find it in the url)
-const gdgName = // TODO: add the gdg name (ie. GDG San Francisco)
-const meetupKey = // TODO: add the meetup key
+const gdgId = '';// TODO: add GDG id from meetup (you can find it in the url)
+const gdgName = '';// TODO: add the GDG name (ie. GDG San Francisco)
+const meetupKey = '';// TODO: add the meetup key
 
 // meetup primary language, add the two character language code from
 // https://developers.google.com/actions/localization/languages-locales
-const appLocal = // TODO: add the two character language code (ie. 'en')
+const appLocal = '';// TODO: add the two character language code (ie. 'en')
 
 // Your Actions on Google Project ID
-const projectId = // TODO: add the project id
+const projectId = '';// TODO: add the project id
 
 exports.gdgId = gdgId;
 exports.gdgName = gdgName;
