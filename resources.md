@@ -28,6 +28,10 @@ Full description: Saiba mais sobre o que o GDG San Francisco está fazendo; a pa
 Description: GDGサンフランシスコについて学ぶ
 Full description: GDGサンフランシスコの活動次のイベントが来たときから彼らが何をすべきかまで。
 
+### Turkish | tr
+Description: GDG San Francisco hakkında bilgi edinin
+Full description: GDG San Francisco'nun ne yaptığını öğrenin; Bir sonraki olayın ne olduğu hakkında.
+
 
 ## Images
 

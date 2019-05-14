@@ -38,6 +38,7 @@ We are looking to translate this Action into all available languages. You can co
 - Spanish
 - Portuguese
 - Italian
+- Turkish
 
 ### GDG Action Translation Template Sheet
 [Here](https://docs.google.com/spreadsheets/d/1Tq5aauE1thrVLJjmdm9WetHZ0k0c-OrgGSt1CV6plxE/edit?usp=sharing) is all the verbiage used in this project.
