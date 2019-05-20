@@ -3,6 +3,11 @@
 
 This action for the Google Assistant provides information about a [Google Developer Group](https://developers.google.com/groups).
 
+## Warning
+
+This sample makes use of authenticated requests against the [Meetup API](https://www.meetup.com/meetup_api/).
+Please note that the code currently uses an API key flow, which [is no longer supported](https://www.meetup.com/meetup_api/auth/).
+
 ## Content
 This app uses [Meetup API](https://www.meetup.com/meetup_api/) to get the data of the GDG.
 
@@ -21,7 +26,7 @@ This app uses [Cloud Translation API](https://cloud.google.com/translate/docs/) 
 The following values need to be configured in the `functions/config.js` file:
 1. `gdgId`: unique identifier for the GDG on Meetup (e.g. `google-developer-group-san-francisco` for `https://www.meetup.com/google-developer-group-san-francisco/`)
 1. `gdgName`: short name for the GDG (e.g. `GDG San Francisco`)
-1. `meetupKey`: Meetup API key retrieved from https://secure.meetup.com/meetup_api/key/
+1. `meetupKey`: Meetup API key retrieved from https://secure.meetup.com/meetup_api/key/ - [No longer supported!](https://www.meetup.com/meetup_api/auth/)
 1. `appLocal`:  GDG's two character language code from https://developers.google.com/actions/localization/languages-locales (e.g. `en`)
 
 Do not do `projectId`.
