@@ -11,12 +11,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-const config = require('./config');
-
 // Import the Meetup API client
-const meetup = require('meetup-api')({
-    key: config.meetupKey,
-});
+const meetup = require('meetup-api')();
 
 /**
  * Class defining a Google Developer Group

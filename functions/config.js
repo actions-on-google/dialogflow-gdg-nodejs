@@ -14,7 +14,6 @@
 // meetup information
 const gdgId = '';// TODO: add GDG id from meetup (you can find it in the url)
 const gdgName = '';// TODO: add the GDG name (ie. GDG San Francisco)
-const meetupKey = '';// TODO: add the meetup key
 
 // meetup primary language, add the two character language code from
 // https://developers.google.com/actions/localization/languages-locales
@@ -25,6 +24,5 @@ const projectId = '';// TODO: add the project id
 
 exports.gdgId = gdgId;
 exports.gdgName = gdgName;
-exports.meetupKey = meetupKey;
 exports.appLocal = appLocal;
 exports.projectId = projectId;
