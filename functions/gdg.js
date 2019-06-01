@@ -63,10 +63,6 @@ class Gdg {
         });
     }
 
-    getOrganizer() {
-        return this._getGroupInfo().then((info) => info.organizer);
-    }
-
     getMembers() {
         return this._getGroupInfo().then((info) => info.members);
     }

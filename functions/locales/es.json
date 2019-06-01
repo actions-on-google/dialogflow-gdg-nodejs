@@ -9,14 +9,12 @@
     "NEXT_EVENT": "El próximo evento se llama {{{name}}} y es en {{date}}.",
     "NO_LAST_EVENT": "No hubo eventos en el pasado.",
     "LAST_EVENT": "El último evento fue el {{date}} y se llamó {{{name}}}.",
-    "ORGANIZER_NAME": "La persona que organiza es %s.",
     "SUGGESTIONS": {
         "MENU": [
             "Sobre GDG",
             "Próximo evento",
             "Último evento",
             "Cuántos miembros",
-            "Nombre del organizador",
             "Adiós"
         ]
     },

@@ -18,7 +18,6 @@ const {
   dialogflow,
   BasicCard,
   Button,
-  Image,
   Suggestions,
   SimpleResponse,
 } = require('actions-on-google');
@@ -100,33 +99,6 @@ app.intent('Default Welcome Intent', (conv) => {
   }
   conv.ask(new Suggestions(selectSuggestionChips(conv)));
 });
-
-/** Handles the Dialogflow intent named 'organizer'. */
-app.intent('organizer', (conv) =>
-  new Gdg(conv.data.gdgId).getOrganizer().then((organizer) => {
-    conv.localize();
-    recordIntentAndClearErrorCount(conv, 'organizer');
-    let messageText = i18n.__('ORGANIZER_NAME', organizer.name);
-    conv.ask(speakPrefix + messageText + speakSuffix);
-    // Save the current prompt
-    setLastPrompt(conv, messageText);
-    // Show a photo of the organizer if the device has a display
-    if (conv.screen) {
-      if (organizer.photo) {
-        conv.ask(new BasicCard({
-          title: organizer.name,
-          image: new Image({
-            url: organizer.photo.photo_link,
-            alt: organizer.name,
-          }),
-          display: 'WHITE',
-        }));
-      }
-    }
-    conv.ask(getSingleRandom(i18n.__('ANYTHING_ELSE')),
-      new Suggestions(selectSuggestionChips(conv)));
-  })
-);
 
 /** Handles the Dialogflow intent named 'event' */
 app.intent('event', (conv) => {
@@ -434,7 +406,6 @@ function recordsIntentFullfillment(conv, intentName) {
     'next event': 1,
     'last event': 2,
     'members': 3,
-    'organizer': 4,
     };
 
   conv.data.intentFullfilled[convertIntentValue[intentName]] = 1;

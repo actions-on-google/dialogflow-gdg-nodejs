@@ -9,14 +9,12 @@
     "NEXT_EVENT": "Sıradaki etkinliğimiz, {{date}} tarihinde düzenleyeceğimiz {{{name}}}.",
     "NO_LAST_EVENT": "Hiç geçmiş etkinliğimiz yok.",
     "LAST_EVENT": "En son {{{name}}} etkinliğimizi {{date}} tarihinde düzenledik.",
-    "ORGANIZER_NAME": "Organizatör %s.",
     "SUGGESTIONS": {
         "MENU": [
             "GDG Hakkında",
             "Sıradaki Etkinlik",
             "Son Etkinlik",
             "Üye Sayısı",
-            "Organizatörün İsmi",
             "Hoşça kal!"
         ]
     },
