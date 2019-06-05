@@ -58,12 +58,10 @@ i18n.configure({
 // Imports the Google Cloud client library
 const Translate = require('@google-cloud/translate');
 
-
 // Instantiates a client
 const translate = new Translate.Translate({
   projectId: config.projectId,
 });
-
 
 // Instantiate the Dialogflow client. Returns an instance of DialogflowApp.
 const app = dialogflow({debug: true});
