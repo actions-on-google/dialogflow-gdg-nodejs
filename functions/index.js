@@ -77,7 +77,7 @@ app.intent('Default Welcome Intent', (conv) => {
   // menu options, 0 is unfulfilled, 1 is fulfilled. This allows
   // suggestion chips to be customized to this conversation.
   conv.localize();
-  conv.data.intentFullfilled = [0, 0, 0, 0, 0, 0];
+  conv.data.intentFullfilled = [0, 0, 0, 0, 0];
   if (conv.user.last.seen) {
     let messageText = i18n.__('WELCOME_BACK_TEXT', config.gdgName);
     let messageSpeech = speakPrefix +
@@ -113,11 +113,9 @@ app.intent('event', (conv) => {
       i18n.__('SUGGESTIONS.MENU')[2]]));
 });
 
-/** Handles the Dialogflow intent named 'next event'.
- * This intent is using async because there is a potentional of
- * utilizing translate which will need to use the await feature
- * to ensure that the translation happens before the message
- * is sent
+/**
+ * Handles the Dialogflow intent named 'next event'.
+ * Uses async function to accommodate potential Translation API call.
  */
 app.intent('next event', async (conv) => {
   const gdg = new Gdg(conv.data.gdgId);
@@ -160,11 +158,9 @@ app.intent('next event', async (conv) => {
       );
 });
 
-/** Handles the Dialogflow intent named 'last event'.
- * This intent is using async because there is a potentional of
- * utilizing translate which will need to use the await feature
- * to ensure that the translation happens before the message
- * is sent
+/**
+ * Handles the Dialogflow intent named 'next event'.
+ * Uses async function to accommodate potential Translation API call.
  */
 app.intent('last event', async (conv) => {
   const gdg = new Gdg(conv.data.gdgId);
@@ -222,11 +218,9 @@ app.intent('members', (conv) =>
   })
 );
 
-/** Handles the Dialogflow intent named 'gdg'.
- * This intent is using async because there is a potentional of
- * utilizing translate which will need to use the await feature
- * to ensure that the translation happens before the message
- * is sent
+/**
+ * Handles the Dialogflow intent named 'next event'.
+ * Uses async function to accommodate potential Translation API call.
  */
 app.intent('gdg', async (conv) => {
   const gdg = new Gdg(conv.data.gdgId);
