@@ -381,7 +381,7 @@ function clearFallbackNoinput(conv) {
  */
 function recordIntentAndClearErrorCount(conv, intentName) {
   clearFallbackNoinput(conv);
-  recordsIntentFullfillment(conv, intentName);
+  recordsIntentFulfillment(conv, intentName);
   return null;
 }
 
@@ -392,7 +392,7 @@ function recordIntentAndClearErrorCount(conv, intentName) {
  * @param num conv, the conversation object.
  * @return {null} none.
  */
-function recordsIntentFullfillment(conv, intentName) {
+function recordsIntentFulfillment(conv, intentName) {
   const convertIntentValue = {
     'gdg': 0,
     'next event': 1,
