@@ -22,8 +22,8 @@ Cloud Translation API as well as Meetup API use will both require billing enable
 
 ### Configuration
 #### Actions Console
-1. From the [Actions on Google Console](https://console.actions.google.com/?inviteCode=gdgaction), add a new project > **Create Project** > under **More options** > **Conversational**
-1. From the left navigation menu under **Build** > **Actions** > **Add Your First Action** > **BUILD** (this will bring you to the Dialogflow console) > Select language and time zone > **CREATE**.
+1. From the [Actions on Google Console](https://console.actions.google.com/?inviteCode=gdgaction), New project > **Create project** > under **More options** > **Conversational**
+1. From the top menu under **Develop** > **Actions** (left nav) > **Add your first action** > **BUILD** (this will bring you to the Dialogflow console) > Select language and time zone > **CREATE**.
 1. In the Dialogflow console, go to **Settings** ⚙ > **Export and Import** > **Restore from zip** using the `agent.zip` in this sample's directory.
 
 #### Cloud Platform Console
@@ -45,16 +45,16 @@ Cloud Translation API as well as Meetup API use will both require billing enable
     ```
     Function URL (dialogflowFirebaseFulfillment): https://${REGION}-${PROJECT_ID}.cloudfunctions.net/dialogflowFirebaseFulfillment
     ```
-1. From the left navigation menu, click **Integrations** > **Integration Settings** under Google Assistant > Enable **Auto-preview changes** >  **Test** to open the Actions on Google simulator then say or type `Talk to my test app`.
+1. From the left navigation menu, click **Integrations** > **Integration Settings** under Google Assistant > Enable **Auto-preview changes** > **Test** to open the Actions on Google simulator then say or type `Talk to my test app`.
 
 ### Running this Sample
 + You can test your Action on any Google Assistant-enabled device on which the Assistant is signed into the same account used to create this project. Just say or type, “OK Google, talk to my test app”.
 + You can also use the Actions on Google Console simulator to test most features and preview on-device behavior.
 
 ### Publish your Action on Google Assistant
-1. In the [Actions on Google Console](https://console.actions.google.com) > **Setup** > **Invocation** > add in a **Display name** for each language. For ex: GDG San Francisco)
+1. In the [Actions on Google Console](https://console.actions.google.com) > from the top menu **Develop** > **Invocation** (left nav) > add in a **Display name** for each language. For ex: GDG San Francisco)
     + Disregard any messaging about matching to the invocation, since we'll add that later; if it does not save, add empty space at the end.
-1. Under **Deploy** > **Directory information** and enter all the required information for **each** language > **SAVE**.
+1. From the top menu **Deploy** > **Directory information** (left nav) and enter all the required information for **each** language > **SAVE**.
     + **Description** Suggested Directory information for descriptions [here](resources.md) for all languages
     + **Images**: Follow the [GDG Naming and Logo Guides](https://developers.google.com/programs/community/gdg/resources/)
     + **Privacy and Consent**: This Action does not save any user data. Make sure that you have this verbiage in every language contained in the same document.
