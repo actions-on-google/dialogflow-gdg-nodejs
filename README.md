@@ -16,7 +16,7 @@ Cloud Translation API as well as Meetup API use will both require billing enable
 ### Prerequisites
 1. Node.js and NPM
     + We recommend installing using [NVM](https://github.com/creationix/nvm)
-1. Install the [Firebase CLI](https://developers.google.com/actions/dialogflow/deploy-fulfillment)
+1. Install the [Firebase CLI](https://developers.google.com/assistant/actions/dialogflow/deploy-fulfillment)
     + We recommend using version 6.5.0, `npm install -g firebase-tools@6.5.0`
     + Run `firebase login` with your Google account
 
@@ -35,7 +35,7 @@ Cloud Translation API as well as Meetup API use will both require billing enable
     + `projectId`:  Your Project ID
     + `gdgId`: unique identifier for the GDG on Meetup (ex: `google-developer-group-san-francisco` for `https://www.meetup.com/google-developer-group-san-francisco/`)
     + `gdgName`: short name for the GDG (ex: `GDG San Francisco`)
-    + `appLocal`: language code from https://developers.google.com/actions/localization/languages-locales (ex: `en`, `pt`, `ja`, `es`, `tr`)
+    + `appLocal`: language code from https://developers.google.com/assistant/console/languages-locales (ex: `en`, `pt`, `ja`, `es`, `tr`)
 1. On your local machine, in the `functions` directory, run `npm install`
 1. Run `firebase deploy --project {PROJECT_ID}` to deploy the function
     + To find your **Project ID**: In [Dialogflow console](https://console.dialogflow.com/) under **Settings** ⚙ > **General** tab > **Project ID**.
@@ -61,12 +61,12 @@ Cloud Translation API as well as Meetup API use will both require billing enable
 1. Under **Deploy** > **Release** > **SUBMIT FOR PRODUCTION**.
 
 ### References & Issues
-+ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/).
++ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/assistant/support).
 + For bugs, please report an issue on Github.
 + Actions on Google [Webhook Boilerplate Template](https://github.com/actions-on-google/dialogflow-webhook-boilerplate-nodejs).
 + [Codelabs](https://codelabs.developers.google.com/?cat=Assistant) for Actions on Google.
-+ Actions on Google [Documentation](https://developers.google.com/actions/extending-the-assistant).
-+ More info on deploying with [Firebase](https://developers.google.com/actions/dialogflow/deploy-fulfillment).
++ Actions on Google [Documentation](https://developers.google.com/assistant).
++ More info on deploying with [Firebase](https://developers.google.com/assistant/actions/dialogflow/deploy-fulfillment).
 
 ## Make Contributions
 Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md).
