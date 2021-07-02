@@ -4,6 +4,8 @@ This sample demonstrates Actions on Google features for use on Google Assistant 
 
 The [i18n-node](https://github.com/mashpie/i18n-node) library helps provide responses in several languages, which are contained in the `functions/locales` directory. Also, [Cloud Translation API](https://cloud.google.com/translate/docs/) translates data from Meetup API when the user's language does not match the GDG's primary language.
 
+:warning: This code sample was built using Dialogflow. We now recommend using [Actions Builder or the Actions SDK](https://developers.google.com/assistant/conversational/overview) to develop, test, and deploy Conversational Actions.
+
 **Attention: GDG Organizers**
 This sample can be published on the Google Assistant platform (instructions below).
 
