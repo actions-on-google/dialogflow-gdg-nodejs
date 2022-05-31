@@ -1,5 +1,8 @@
 # Actions on Google: GDG Sample
 
+*:warning: Warning: Conversational Actions will be deprecated on June 13, 2023. For more information, 
+see [Conversational Actions Sunset](https://goo.gle/ca-sunset).*
+
 This sample demonstrates Actions on Google features for use on Google Assistant including localization ([i18n-node](https://github.com/mashpie/i18n-node)), conversation design, rich responses, and API integrations ([Cloud Translation API](https://cloud.google.com/translate/docs/) and [Meetup API](https://www.meetup.com/meetup_api/)) -- using the [Node.js client library](https://github.com/actions-on-google/actions-on-google-nodejs) and deployed on [Cloud Functions for Firebase](https://firebase.google.com/docs/functions/). Generally, this Action provides information about [Google Developer Groups](https://developers.google.com/groups).
 
 The [i18n-node](https://github.com/mashpie/i18n-node) library helps provide responses in several languages, which are contained in the `functions/locales` directory. Also, [Cloud Translation API](https://cloud.google.com/translate/docs/) translates data from Meetup API when the user's language does not match the GDG's primary language.
